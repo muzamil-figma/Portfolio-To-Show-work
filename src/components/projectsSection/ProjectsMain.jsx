@@ -26,7 +26,7 @@ const projects = [
     name: "PortfolioDesign-ForClient(React.js)",
     align: "left",
     image: "/images/portfolio1.png",
-    link: "http://muzamilnawazkhan-001-site1.qtempurl.com/#projects",
+    link: "https://muzamilnawazkhan-001-site1.qtempurl.com/#projects",
   }
 ]
 
