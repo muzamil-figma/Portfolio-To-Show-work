@@ -11,11 +11,11 @@ const HeroPic = () => {
       viewport={{ once: false, amount: 0 }}
       className=" h-full flex items-center justify-center "
     >
-      <img
-        src= "../../public/images/3dpic.png  "
-        alt="Muzamil Nawaz Khan"
-        className="max-h-[450px] w-auto"
-      />
+     <img
+  src="/images/3dpic.png"
+  alt="Muzamil Nawaz Khan"
+  className="max-h-[450px] w-auto"
+/>
 
       <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
         <PiCircleDashed className=" md:h-[90%] sm:h-[120%] 
