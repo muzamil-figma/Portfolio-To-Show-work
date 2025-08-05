@@ -6,36 +6,35 @@ import { fadeIn } from "../../framerMotion/variants";
 const experiences = [
   {
     job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    company: " Bism Software House, Bhakkar",
+      date: "2019-2022",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Implemented dynamic UIs and reusable components in enterprise-level projects.",
+      "Worked on code optimization, lazy loading, and component-level performance tuning.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "React / Next.js Developer & Mentor",
+    company: "Freelance | Khan Sab Freelance Place, Bhakkar",
+     date: "2022 - 2023",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Delivered custom web solutions to clients using React, Next.js, and Tailwind CSS.",
+      "Built responsive user interfaces and interactive SPAs tailored to business needs.",
     ],
   },
+  
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Database Administrator",
+    company: "Kolta Jam Medical Billing, Bhakkar",
+    date: "2024",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Managed patient billing databases and optimized SQL queries for faster operations.",
+      "Implemented secure data backup and recovery procedures.",
+      "Created automated reporting systems."
     ],
   },
 ];
+
 
 const AllExperiences = () => {
   return (

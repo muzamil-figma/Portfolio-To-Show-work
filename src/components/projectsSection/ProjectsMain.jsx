@@ -5,34 +5,30 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "ChaiAPP(Next.js)",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "../../public/images/chai1.png",
     link: "#",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "RestoranAPP(React.js)",  
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "../../public/images/restro1.png",
+    link: "https://resto-by-muzamil.vercel.app/",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "NewsAPP(react.js)",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "../../public/images/news1.png",
     link: "#",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "PortfolioDesign-ForClient(React.js)",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "../../public/images/portfolio1.png",
     link: "#",
   },
-];
+];  
 
 const ProjectsMain = () => {
   return (

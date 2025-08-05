@@ -6,9 +6,10 @@ import SingleInfo from "./SingleInfo";
 const ContactInfo = () => {
   return (
     <div className="flex flex-col gap-4">
-      <SingleInfo text="abdelrahman.qassem@gmail.com" Image={HiOutlineMail} />
-      <SingleInfo text="+2 01000 66 24 55" Image={FiPhone} />
-      <SingleInfo text="Alexandria, Egypt" Image={IoLocationOutline} />
+      <SingleInfo text="muzamil.expert.freelancer@gmail.com" Image={HiOutlineMail} />
+      <SingleInfo text="muzamilnawazseehar@gmail.com" Image={HiOutlineMail} />
+      <SingleInfo text="+923085939456" Image={FiPhone} />
+      <SingleInfo text="Pakistan,Panjab,Layyah" Image={IoLocationOutline} />
     </div>
   );
 };
