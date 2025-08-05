@@ -7,28 +7,29 @@ const projects = [
   {
     name: "ChaiAPP(Next.js)",
     align: "right",
-    image: "../../public/images/chai1.png",
-    link: "#",
+    image: "/images/chai1.png",
+    link: "https://get-me-a-chai-by-muzamil-7o75.vercel.app",
   },
   {
-    name: "RestoranAPP(React.js)",  
+    name: "RestoranAPP(React.js)",
     align: "left",
-    image: "../../public/images/restro1.png",
+    image: "/images/restro1.png",
     link: "https://resto-by-muzamil.vercel.app/",
   },
   {
     name: "NewsAPP(react.js)",
     align: "right",
-    image: "../../public/images/news1.png",
+    image: "/images/news1.png",
     link: "#",
   },
   {
     name: "PortfolioDesign-ForClient(React.js)",
     align: "left",
-    image: "../../public/images/portfolio1.png",
-    link: "#",
-  },
-];  
+    image: "/images/portfolio1.png",
+    link: "http://muzamilnawazkhan-001-site1.qtempurl.com/#projects",
+  }
+]
+
 
 const ProjectsMain = () => {
   return (
@@ -50,6 +51,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

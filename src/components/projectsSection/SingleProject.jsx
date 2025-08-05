@@ -3,7 +3,13 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const SingleProject = ({ name, year, align, image, link }) => {
+   const handleClick = () => {
+    if (link) {
+      window.open(link, "_blank");
+    }
+  };
   return (
+    
     <motion.div
       variants={fadeIn("top", 0)}
       initial="hidden"
@@ -28,7 +34,11 @@ const SingleProject = ({ name, year, align, image, link }) => {
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}
         >
-          View <BsFillArrowUpRightCircleFill />
+          View  <BsFillArrowUpRightCircleFill
+      className="text-blue-600 hover:scale-110 cursor-pointer"
+      size={24}
+      onClick={handleClick}
+    />
         </a>
       </div>
       <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border border-white">
